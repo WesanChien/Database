@@ -5,7 +5,7 @@ import pyodbc
 SERVER = "localhost,14330"
 DATABASE = "TAtest"
 USERNAME = "wesan"
-PASSWORD = "wesan0213"
+PASSWORD = "XXXX"
 
 TABLE_NAME = "dbo.TW50_DailyPrice"
 SP_NAME = "dbo.sp_CalculateTrend"
