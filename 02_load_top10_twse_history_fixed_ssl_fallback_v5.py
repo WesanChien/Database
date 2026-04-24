@@ -1,14 +1,3 @@
-"""
-抓取固定寫死的台灣前 10 大上市股票，下載 2022/01 ~ 2026/03 的歷史日資料，
-計算 MA5 / MA10 / MA20 / MA60 / MA120 / MA240，
-再寫入 SQL Server 的 TAtest 資料庫。
-
-執行前：
-1. pip install requests pandas pyodbc
-2. SSMS 先執行 01_create_tables.sql
-3. 把下方 SQL_PASSWORD 改成你的密碼
-"""
-
 from __future__ import annotations
 
 import calendar
@@ -31,7 +20,7 @@ from requests.exceptions import SSLError
 SQL_SERVER = "localhost,14330"
 SQL_DATABASE = "TAtest"
 SQL_USERNAME = "wesan"
-SQL_PASSWORD = "wesan0213"
+SQL_PASSWORD = "XXXX"
 
 START_YEAR = 2022
 START_MONTH = 1
