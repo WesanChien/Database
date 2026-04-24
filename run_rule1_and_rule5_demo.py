@@ -5,7 +5,7 @@ import pyodbc
 SERVER = "localhost,14330"
 DATABASE = "TAtest"
 USERNAME = "wesan"
-PASSWORD = "wesan0213"
+PASSWORD = "XXXX"
 
 SP_NAME = "dbo.sp_DetectGranvilleRule1And5"
 
